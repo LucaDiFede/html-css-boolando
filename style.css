@@ -1,0 +1,64 @@
+.top {
+  background-color: orange;
+  height: 80px;
+  margin: 0px 100px;
+}
+
+.catalogo {
+  padding: 0 50px;
+  width: calc((100% / 6) * 1);
+  display: inline-block;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.logo {
+  width: 150px;
+  padding: 20px 0 0 260px;
+}
+
+.Foto1, .Foto1a, .Foto2, .Foto3, .Foto4, .Foto5, .Foto6 {
+  width: 100%;
+  float: left;
+  padding: 35px 0 0 25px;
+}
+
+.item {
+  position: relative;
+  padding-left: 150px;
+  border: 2px dashed black;
+  width: calc((100% / 3) - 10px);
+  height: 200px;
+}
+
+.superiore > .discount {
+  position: absolute;
+  top: 475px;
+  right: 239px;
+  background-color: red;
+  color: white;
+}
+
+
+.item:hover .Foto1{
+  display: none;
+}
+
+.item:hover .Foto1a{
+  display: block;
+}
+
+.item .Foto1a {
+  display: none;
+}
+
+.Sostenibilità {
+    position: absolute;
+    top: 475px;
+    right: 155px;
+    background-color: green;
+    color: white;
+}
